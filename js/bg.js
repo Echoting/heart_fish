@@ -21,8 +21,7 @@
 	var wave;
 	var halo;
 
-	window.onload = function(){
-		game();
+	document.body.onload = game;
 
 		function game(){
 			init();
@@ -174,5 +173,3 @@
 				}
 			}
 		}
-
-	}
